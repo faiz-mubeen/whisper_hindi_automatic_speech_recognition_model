@@ -49,3 +49,6 @@ Now we have `reference text` and `transcribed text`, we used Word error rate `(W
 - To calculate WER, we count the total number of errors—such as insertions (extra words added), deletions (missing words), and substitutions (wrong words used)—needed to align the transcribed text with the reference text. This count is then divided by the total number of words in the reference text. The resulting ratio provides a standardized measure of the accuracy of the ASR system, allowing for comparisons and insights into its performance.
 
 - The lower the WER, the better the system is at accurately transcribing speech into text. So, it helps us understand how accurate the transcription is compared to the original spoken words.
+
+Final Result:
+`WER: 15.96 %`
