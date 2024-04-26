@@ -17,7 +17,10 @@ Cloning the whisper repository along with its Python dependencies:
 ```bash
   !pip install git+https://github.com/openai/whisper.git
 ```
-    
+
+## Dataset
+
+Contains 1032 audio files of telephone quality speech data in Hindi. It also consist of reference text file containing original text of audios.  [Dataset](https://asr.iitm.ac.in/Gramvaani/NEW/GV_Eval_3h.tar.gz)
 ## Whisper Model and sample usage
 
 #### Model used: 
