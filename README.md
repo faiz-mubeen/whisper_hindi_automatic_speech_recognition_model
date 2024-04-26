@@ -42,10 +42,10 @@ print(result["text"])
 Now we have `reference text` and `transcribed text`, we used Word error rate `(WER)` to get the accuracy of the transcribed text compared to the original reference.
 
 ### Word Error Rate (WER)
-Word Error Rate (WER) is a common metric of the performance of a speech recognition or machine translation system. It is like a score that measures how well a computer system can turn spoken words into written words. 
+- `Word Error Rate (WER)` is a common metric of the performance of a speech recognition or machine translation system. It is like a score that measures how well a computer system can turn spoken words into written words. 
 
-It quantifies the differences between the transcribed output produced by the ASR system and the actual reference or correct transcription.
+- It quantifies the differences between the transcribed output produced by the ASR system and the actual reference or correct transcription.
 
-To calculate WER, we count the total number of errors—such as insertions (extra words added), deletions (missing words), and substitutions (wrong words used)—needed to align the transcribed text with the reference text. This count is then divided by the total number of words in the reference text. The resulting ratio provides a standardized measure of the accuracy of the ASR system, allowing for comparisons and insights into its performance.
+- To calculate WER, we count the total number of errors—such as insertions (extra words added), deletions (missing words), and substitutions (wrong words used)—needed to align the transcribed text with the reference text. This count is then divided by the total number of words in the reference text. The resulting ratio provides a standardized measure of the accuracy of the ASR system, allowing for comparisons and insights into its performance.
 
-The lower the WER, the better the system is at accurately transcribing speech into text. So, it helps us understand how accurate the transcription is compared to the original spoken words.
+- The lower the WER, the better the system is at accurately transcribing speech into text. So, it helps us understand how accurate the transcription is compared to the original spoken words.
